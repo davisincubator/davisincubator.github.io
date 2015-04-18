@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- bootstrap -->
+			<link href="/css/bootstrap.min.css" rel="stylesheet">
+			<link href="/css/bootstrap-responsive.css" rel="stylesheet">
+			<!-- link to main stylesheet -->
+			<link href="/css/main.css" rel="stylesheet">
+		</head>
+		<body>
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			<script src="/js/bootstrap.min.js"></script>
+
+			<div class="container">
+				<!-- Start Navigation Bar -->
+				<div class="header">
+						<nav>
+							<ul class="nav nav-pills pull-right">
+								<li role="presentation"><a href="/members">Members</a></li>
+								<li role="presentation"><a href="/projects">Projects</a></li>
+								<li role="presentation"><a href="/blog">Blog</a></li>
+								<li role="presentation"><a href="/roadmap">Roadmap</a></li>
+							</ul>
+						</nav>
+						<h3><a href="/">Davis Incubator Group</a></h3>
+				</div>
+
+				{{ content }}
+
+			<footer class="footer">
+			</footer>
+		</div><!-- /.container -->
+		</body>
+	</html>
