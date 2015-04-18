@@ -1,0 +1,3 @@
+name: Nicholas DiQuattro
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
