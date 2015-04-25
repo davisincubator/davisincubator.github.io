@@ -2,8 +2,18 @@
 layout: default
 title: Davis Incubator Group - Home
 ---
-<div class="blog-index">
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  {% include post_detail.html %}
+<div class=row>
+  <div class="col-md-8">
+    <h2>Latest Post</h2>
+    <div class="blog-index">
+      {% assign post = site.posts.first %}
+      {% assign content = post.content %}
+      {% include post_detail.html %}
+    </div>
+  </div>
+  <div class="col-md-4">
+    <h1>Hi There!</h1>
+    <p>We're the data-teers, you can be one too! Because statistical analysis
+       is the thing to do!</p>
+  </div>
 </div>

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "I need to make room"
-date: 2015-02-12
+title: "The Best Post"
+date: 2015-04-25
+author: Nick DiQuattro
+contact: http://twitter.com/nickof4
 ---
-
-So much text! I like (Atom)[atom.io] **ATOM** I will now copy over a bunch of text to fill up space.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in placerat est. Cras cursus sodales consequat. Praesent et metus in tellus condimentum molestie. Aenean iaculis massa ut lectus fringilla, vitae bibendum nisl venenatis. Duis placerat ultricies elementum. Donec nec nisi felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut fermentum ligula. Nullam condimentum ex lacinia ligula dapibus, eu ullamcorper lorem auctor. Aliquam nec aliquam massa. Aliquam fringilla, eros nec feugiat dictum, magna turpis pharetra purus, at laoreet risus diam sed augue.
 
