@@ -10,6 +10,15 @@ body {
   margin-bottom: 60px;
 }
 
+.contentblock {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: #b0e0e6;
+}
+  
+}
+
 html {
   position: relative;
   min-height: 100%;
