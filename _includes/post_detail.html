@@ -1,6 +1,6 @@
 <h1 class="entry-title">
-{% if post.title %}
-    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-{% endif %}
+  <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 </h1>
+  <p class="meta">{{ post.date | date_to_string }}</p>
+  <h3>by: <a href={{ post.contact }}>{{post.author}}</a></h3>
 <div class="entry-content">{{ content }}</div>
