@@ -9,10 +9,10 @@ title: Davis Incubator Group - Members
   {% endif %}
   <div class="col-md-4">
     <img height=140 width = 140 src={{ member.image }} class="img-rounded center-block">
-    <h3>{{ member.name }}</h3>
+    <h3 class="center-block">{{ member.name }}</h3>
     <p>{{ member.blurb }}</p>
-    <a href="https://www.linkedin.com/in/{{ member.linkedin }}">LinkedIn</a>
-    <a href="https://github.com/{{ member.github }}">GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ member.linkedin }}">LinkedIn</a> |
+    <a href="https://github.com/{{ member.github }}">GitHub</a> |
     <a href="https://twitter.com/{{ member.twitter }}">twitter</a>
   </div>
   {% if thecycle == '3' or forloop.last %}
