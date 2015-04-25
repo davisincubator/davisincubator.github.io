@@ -2,9 +2,9 @@
 layout: default
 title: Davis Incubator Group - Members
 ---
-{% assign count = 1 %}
 {% for member in site.data.members %}
-  {% if count == 1 %}
+  {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+  {% if thecycle == '1' %}
     <div class="row">
   {% endif %}
   <div class="col-md-4">
@@ -14,9 +14,7 @@ title: Davis Incubator Group - Members
       </a>
     </li>
   </div>
-  {% assign count = count + 1 %}
-  {% if count == 3 %}
+  {% if thecycle == '3' or forloop.last %}
     </div>
-    {% assign count = 1 %}
   {% endif %}
 {% endfor %}
