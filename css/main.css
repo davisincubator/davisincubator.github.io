@@ -22,3 +22,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+.blog-index {
+  border-right: 1px dashed #333;
+}
