@@ -27,3 +27,7 @@ html {
   padding-right: 5px;
   border-right: 1px dashed #333;
 }
+
+.footer {
+  border-top: 1px dashed #333;
+}
