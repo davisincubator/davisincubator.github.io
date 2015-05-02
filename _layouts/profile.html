@@ -3,6 +3,7 @@ layout: default.html
 id: ndiquattro
 ---
 {% for member in site.data.members %}
+{% if member.linkedin == page.id %}
 <div class="row">
   <div class="col-md-4">
     <img height=280 width=280 src={{ member.image }} class="img-rounded center-block">
@@ -13,4 +14,5 @@ id: ndiquattro
       <a href="https://github.com/{{ member.github }}" target="_blank"><img height=32 width=32 src="/images/smediaicons/github.png"></a>&nbsp&nbsp
       <a href="https://twitter.com/{{ member.twitter }}" target="_blank"><img height=32 width=32 src="/images/smediaicons/twitter-variation.png"></a>
     </div>
+{% endif %}
 {% endfor %}
