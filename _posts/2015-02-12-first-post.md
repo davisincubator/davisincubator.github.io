@@ -2,8 +2,7 @@
 layout: post
 title: "The Best Post"
 date: 2015-04-25
-author: Nicholas DiQuattro
-contact: http://twitter.com/nickof4
+author: ndiquattro
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in placerat est. Cras cursus sodales consequat. Praesent et metus in tellus condimentum molestie. Aenean iaculis massa ut lectus fringilla, vitae bibendum nisl venenatis. Duis placerat ultricies elementum. Donec nec nisi felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut fermentum ligula. Nullam condimentum ex lacinia ligula dapibus, eu ullamcorper lorem auctor. Aliquam nec aliquam massa. Aliquam fringilla, eros nec feugiat dictum, magna turpis pharetra purus, at laoreet risus diam sed augue.
