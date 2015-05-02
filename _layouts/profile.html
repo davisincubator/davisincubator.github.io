@@ -2,7 +2,7 @@
 layout: default.html
 id: ndiquattro
 ---
-{% for member = site.data.members %}
+{% for member in site.data.members %}
 <div class="row">
   <div class="col-md-4">
     <img height=280 width=280 src={{ member.image }} class="img-rounded center-block">
