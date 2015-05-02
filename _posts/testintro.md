@@ -36,8 +36,7 @@ Code academy had an in-browser console for interacting with Python. Perfect for 
 
 1. [Installing Python](http://docs.python-guide.org/en/latest/starting/install/osx/ "Installing Python")
 The cool element here is the idea of "virutal environments" which you use to create a new copy of python for each project. This lets you install modules without worrying about conflicts or having to update to a new version of a module that breaks old code because of a new project.
-
->Sidenote: There's an [issue](https://www.codementor.io/python/tutorial/python-2-7-vs-python-3-4 "issue") between Python 2.7 and 3.3. Many modules are based on 2.7, which is why it's still around, but there are actual differences between the versions. It seems to come down to if some module you want to use only works with 2.7 or 3.3. 
+>>Sidenote: There's an [issue](https://www.codementor.io/python/tutorial/python-2-7-vs-python-3-4 "issue") between Python 2.7 and 3.3. Many modules are based on 2.7, which is why it's still around, but there are actual differences between the versions. It seems to come down to if some module you want to use only works with 2.7 or 3.3. 
 
 2. [Choosing an IDE](http://xcorr.net/2013/04/17/evaluating-ides-for-scientific-python/ "Choosing an IDE")
 There are a couple in the link. I ended up using IEP because its simple and has solid code completion. However, recently it's been hard to get it to plot easily with matplotlib
