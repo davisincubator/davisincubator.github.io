@@ -15,7 +15,7 @@
     <div class="col-md-8">
       <div class="panel panel-default">
       <div class="panel-heading">Projects</div>
-        <table class="table">
+        <table class="table table-condensed">
           <tr>
             <td>Name</td>
             <td>Description</td>
@@ -29,10 +29,10 @@
         <br>
         <div class="panel panel-default">
         <div class="panel-heading">Blog Posts</div>
-          <table class="table">
+          <table class="table table-condensed">
             <tr>
-              <td>Date</td>
-              <td>Title</td>
+              <th>Date</th>
+              <th>Title</th>
             </tr>
             {% for post in site.posts %}
             {% if post.author == member.name %}
