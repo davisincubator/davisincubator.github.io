@@ -1,0 +1,14 @@
+---
+layout: default.html
+---
+{% assign person = site.data.members[page.name] %}
+<div class="row">
+  <div class="col-md-4">
+    <img height=280 width=280 src={{ member.image }} class="img-rounded center-block">
+    <div class="text-center">
+      <h2>{{ member.name }}</h2>
+      <p>{{ member.blurb }}</p>
+      <a href="https://www.linkedin.com/in/{{ member.linkedin }}" target="_blank"><img height=64 width=64 src="/images/smediaicons/linkedin-variation.png"></a>&nbsp&nbsp
+      <a href="https://github.com/{{ member.github }}" target="_blank"><img height=32 width=32 src="/images/smediaicons/github.png"></a>&nbsp&nbsp
+      <a href="https://twitter.com/{{ member.twitter }}" target="_blank"><img height=32 width=32 src="/images/smediaicons/twitter-variation.png"></a>
+    </div>
