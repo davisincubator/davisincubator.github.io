@@ -1,7 +1,11 @@
 ---
 layout: default.html
 ---
-{% assign member = site.data.members[page.name == name] %}
+{% for members = site.data.members %}
+{% if members.name == page.name %}
+  {% assign member = members %}
+{% endif %}
+{% endfor %}
 <div class="row">
   <div class="col-md-4">
     <img height=280 width=280 src={{ member.image }} class="img-rounded center-block">
