@@ -2,8 +2,9 @@
 layout: default.html
 ---
 {% for members = site.data.members %}
-{% if members.name == page.name %}
+{% if members.linkedin == page.id %}
   {% assign member = members %}
+  Id found!
 {% endif %}
 {% endfor %}
 <div class="row">
