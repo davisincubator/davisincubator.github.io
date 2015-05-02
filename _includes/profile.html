@@ -1,5 +1,4 @@
-{% for member in site.data.members %}
-{% if member.linkedin == page.id %}
+{% assign member = site.data.members[page.id] %}
 <div class="row">
   <div class="col-md-4">
     <img height=280 width=280 src={{ member.image }} class="img-rounded center-block">
@@ -44,5 +43,3 @@
             {% endfor %}
           </table>
       </div>
-{% endif %}
-{% endfor %}
