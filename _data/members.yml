@@ -5,7 +5,8 @@
   github: kylefrankovich
   image: http://mindbrain.ucdavis.edu/labs/luck-lab/kyle_z.jpg
 
-- name: Nicholas DiQuattro
+ndiquattro:
+  name: Nicholas DiQuattro
   blurb: Always a cool guy.
   linkedin: ndiquattro
   twitter: nickof4
