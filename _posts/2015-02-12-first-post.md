@@ -2,7 +2,7 @@
 layout: post
 title: "The Best Post"
 date: 2015-04-25
-author: Nick DiQuattro
+author: Nicholas DiQuattro
 contact: http://twitter.com/nickof4
 ---
 
