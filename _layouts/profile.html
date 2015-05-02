@@ -2,8 +2,8 @@
 layout: default.html
 id: ndiquattro
 ---
-{% for members = site.data.members %}
-{% if members.linkedin == page.id %}
+{% for member = site.data.members %}
+{% if member.linkedin == page.id %}
 <div class="row">
   <div class="col-md-4">
     <img height=280 width=280 src={{ member.image }} class="img-rounded center-block">
