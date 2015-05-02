@@ -1,6 +1,8 @@
-<h1 class="entry-title">
-  <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-</h1>
-by: <a href={{ post.contact }}>{{post.author}}</a> <p class="meta">{{ post.date | date_to_string }}</p>
+{% for post in site.posts limit: 3 %}
+  <h1 class="entry-title">
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+  </h1>
+  by: <a href={{ post.contact }}>{{post.author}}</a> <p class="meta">{{ post.date | date_to_string }}</p>
 
-<div class="entry-content">{{ content }}</div>
+  <div class="entry-content">{{ post.excerpt }}</div>
+{% endfor %}
