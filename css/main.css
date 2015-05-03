@@ -27,12 +27,12 @@ html {
 }
 
 .footer {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding-right: 10px;
-   width: 100%;
+  width: 100%;
   /* Set the fixed height of the footer here */
   height: 70px;
   vertical-align: middle;
