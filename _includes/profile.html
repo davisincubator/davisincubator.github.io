@@ -14,13 +14,14 @@
     <div class="col-md-8">
       <div class="panel panel-info">
       <div class="panel-heading">Projects</div>
-        <table class="table table-condensed table-hover" width=80%>
+        <table class="table table-condensed" width=80%>
           <tr>
             <th>Name</th>
             <th>Description</th>
             <th>Blog Post</th>
             <th>GitHub Repo</th>
           </tr>
+          <tbody class="table-hover">
           {% for proj in site.data.projects %}
             {% for author in proj.authors %}
               {% assign aname = site.data.members[author] %}
@@ -34,6 +35,7 @@
               {% endif %}
               {% endfor %}
           {% endfor %}
+        </tbody>
         </table>
       </div>
         <br>
