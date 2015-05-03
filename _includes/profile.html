@@ -22,7 +22,7 @@
             <th>GitHub Repo</th>
           </tr>
           {% for proj in site.data.projects %}
-            {% for authors in proj.authors %}
+            {% for authors in proj[1].authors %}
             {% assign aname = site.data.members[authors] %}
             {% if aname == member.name %}
             <tr>
