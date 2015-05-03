@@ -29,8 +29,8 @@
                 <tr>
                   <td>{{ proj.name }}</td>
                   <td>{{ proj.description }}</td>
-                  <td><a href={{ proj.blog }}>Link</a></td>
-                  <td><a href={{ proj.ghub }}>Link</a></td>
+                  <td align="center"><a href={{ proj.blog }}>Link</a></td>
+                  <td align="center"><a href={{ proj.ghub }} target="_blank">Link</a></td>
                 <tr>
               {% endif %}
               {% endfor %}
@@ -53,7 +53,7 @@
             {% if pauthor.name == member.name %}
             <tr>
               <td>{{ post.date | date_to_string }}</td>
-              <td><a href={{ post.url }}>{{ post.title }}</a></td>
+              <td align="center"><a href={{ post.url }}>{{ post.title }}</a></td>
             </tr>
             {% endif %}
             {% endfor %}
