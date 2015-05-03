@@ -34,7 +34,7 @@
               <th>Title</th>
             </tr>
             {% for post in site.posts %}
-            {% pauthor = site.data.members[post.author] %}
+            {% assign pauthor = site.data.members[post.author] %}
             {% if pauthor.name == member.name %}
             <tr>
               <td>{{ post.date | date_to_string }}</td>
