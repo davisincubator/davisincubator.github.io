@@ -24,7 +24,7 @@
           {% for proj in site.data.projects %}
             {% for authors in proj[1].authors %}
             {% assign aname = site.data.members[authors] %}
-            {% if aname == member.name %}
+            {% if aname.name == member.name %}
             <tr>
               <td>{{ proj[1].name }}</td>
               <td>{{ proj[1].description }}</td>
