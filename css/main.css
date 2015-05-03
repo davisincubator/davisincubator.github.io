@@ -1,7 +1,7 @@
 /* Customize container */
 .container {
   padding-top: 15px;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;/*
 }
 
 /* General tags */
@@ -28,7 +28,7 @@ html {
 
 .footer {
   position: absolute;
-  bottom: -50;
+  bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding-right: 10px;
