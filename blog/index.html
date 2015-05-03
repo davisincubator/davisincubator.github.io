@@ -5,7 +5,7 @@ title: All Posts
 <h1>{{ page.title }}</h1>
 <ul class="posts">
 	{% for post in site.posts %}
-	{% assign author = site.data.members[post.author]}
+	{% assign author = site.data.members[post.author] %}
 <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> by: <a href="/members/{{post.author}}">{{author.name}}</a></li>
 	{% endfor %}
 </ul>
