@@ -2,9 +2,6 @@
 .container {
   padding-top: 15px;
   padding-bottom: 50px;
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
 }
 
 .contentblock {
