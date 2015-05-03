@@ -1,0 +1,9 @@
+counterstrike:
+  authors:
+    -ndiquattro
+    -kylefrankovich
+    -jasonarita
+  name: Counter-Strike Outcomes
+  description: Visualizations of round outcomes in CS.
+  blog: http://davisig.org/blog/2015/04/25/first-post/
+  ghub: https://github.com/davisincubator/counter_strike
