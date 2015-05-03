@@ -22,17 +22,17 @@
             <th>GitHub Repo</th>
           </tr>
           {% for proj in site.data.projects %}
-            {% for authors in proj[1].authors %}
-            {% assign aname = site.data.members[authors] %}
-            {% if aname.name == member.name %}
-            <tr>
-              <td>{{ proj[1].name }}</td>
-              <td>{{ proj[1].description }}</td>
-              <td>{{ proj[1].blog }}</td>
-              <td>{{ proj[1].ghub }}</td>
-            <tr>
-            {% endif %}
-            {% endfor %}
+            {% for author in proj.authors %}
+              {% assign aname = site.data.members[author] %}
+              {% if aname.name == member.name %}
+                <tr>
+                  <td>{{ proj.name }}</td>
+                  <td>{{ proj[1].description }}</td>
+                  <td>{{ proj[1].blog }}</td>
+                  <td>{{ proj[1].ghub }}</td>
+                <tr>
+              {% endif %}
+              {% endfor %}
           {% endfor %}
         </table>
       </div>
