@@ -3,7 +3,7 @@ layout: default
 title: Davis Incubator Group - Members
 ---
 {% for member1 in site.data.members %}
-{% assign member = member1[0] %}
+{% assign member = member1[1] %}
   {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
   {% if thecycle == '1' %}
     <div class="row">
