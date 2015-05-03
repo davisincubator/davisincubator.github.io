@@ -1,28 +1,29 @@
-
-- name: Kyle Frankovich
+kylefrankovich:
+  name: Kyle Frankovich
   blurb: Sometimes a cool guy.
   linkedin: kylefrankovich
   twitter: kylefrankovich
   github: kylefrankovich
   image: http://mindbrain.ucdavis.edu/labs/luck-lab/kyle_z.jpg
 
-
-- name: Nicholas DiQuattro
+ndiquattro:
+  name: Nicholas DiQuattro
   blurb: Always a cool guy.
   linkedin: ndiquattro
   twitter: nickof4
   github: ndiquattro
   image: https://avatars0.githubusercontent.com/u/7445920?v=3&s=460
 
-
-- name: Jason Arita
+jasonarita:
+  name: Jason Arita
   blurb: Never has been a cool guy.
   linkedin: jasonarita
   twitter: percpt
   github: percpt
   image: https://pbs.twimg.com/profile_images/2909158998/33b08017f4871c82460364ec712b8d21.jpeg
 
-- name: Emily Halket
+emilyhalket:
+  name: Emily Halket
   blurb: Tries to be a cool girl.
   linkedin: hal
   twitter: EmHalket
