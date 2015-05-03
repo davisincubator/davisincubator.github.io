@@ -1,5 +1,5 @@
 {% for post in site.posts limit: 3 %}
-  {% assign author = site.members[post.author] %}
+  {% assign author = site.data.members[post.author] %}
   <h1>
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
   </h1>
