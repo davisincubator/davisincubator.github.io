@@ -1,5 +1,9 @@
-[add blog post header here]
-
+---
+layout: post
+title: "How to get from Point A to Point Data Scientist. The Introduction."
+date: 2015-05-08
+author: bstankev
+---
 
 ###**How to get from Point A to Point Data Scientist. The Introduction.**
 
