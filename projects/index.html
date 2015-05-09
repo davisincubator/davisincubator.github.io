@@ -29,9 +29,9 @@ title: Projects
   <p class="lead">{{ proj.description }}</p>
   Made by: {% for author in proj.authors %}
             {% if forloop.last %}
-              {% if proj.authors.size > 1 %}&amp;{% endif %}{{ site.data.members[author].name }}
+              {% if proj.authors.size > 1 %}&amp; {% endif %}{{ site.data.members[author].name }}
             {% else %}
-              {{ site.data.members[author].name }} {% if proj.authors.size > 3 %},{% endif %}
+              {{ site.data.members[author].name }} {% if proj.authors.size > 2 %},{% endif %}
             {% endif %}
            {% endfor %}
 </div>
