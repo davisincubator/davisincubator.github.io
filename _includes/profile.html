@@ -48,6 +48,7 @@
               <th>Date</th>
               <th align="center">Title</th>
             </tr>
+            <tbody class="table-hover">
             {% for post in site.posts %}
             {% assign pauthor = site.data.members[post.author] %}
             {% if pauthor.name == member.name %}
@@ -57,5 +58,6 @@
             </tr>
             {% endif %}
             {% endfor %}
+            </tbody>
           </table>
       </div>
