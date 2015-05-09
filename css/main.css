@@ -22,12 +22,8 @@ html {
 }
 
 .blog-index {
-  padding-right: 5px;
+  padding-right: 10px;
   border-right: 1px dashed #333;
-}
-
-.post {
-  font-size: 20px;
 }
 
 .footer {
