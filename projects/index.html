@@ -27,8 +27,13 @@ title: Projects
   <img class="featurette-image pull-{% cycle 'right', 'left' %}" height=500 width=500 src="{{ proj.image }}">
   <h2 class="featurette-heading">{{ proj.name }}</h2>
   <p class="lead">{{ proj.description }}</p>
-  {% capture anum %}{% proj.authors | size %}{% endcapture %}
+  {% capture anum %}{% proj.authors.size %}{% endcapture %}
   Made by: {% for author in proj.authors %}
-  {% if forloop.last %} {% if anum > 1 %}&amp;{% endif %} {{ site.data.members[author].name }} {% else %} {{ site.data.members[author].name }}{% if anum > 3 %},{% endif %} {% endif %} {% endfor %}
+            {% if forloop.last %}
+              {% if proj.authors.size > 1 %}&amp;{% endif %}{{ site.data.members[author].name }}
+            {% else %}
+              {{ site.data.members[author].name }} {% if proj.authors.size > 3 %},{% endif %}
+            {% endif %}
+           {% endfor %}
 </div>
 {% endfor %}
