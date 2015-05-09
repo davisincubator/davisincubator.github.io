@@ -6,8 +6,9 @@ title: Projects
   <div class="row">
     <div class="col-md-6">
       <ul class="list-group">
-        <li class="list-group-item">Counter-strike Outcomes</li>
-        <li class="list-group-item">Crossfit Performance</li>
+        {% for proj in site.data.projects %}
+        <li class="list-group-item"><a href="#{{ proj.name }}">{{ proj.name }}</a></li>
+        {% endfor %}
       </ul>
    </div>
     <div class="col-md-6">
@@ -20,17 +21,11 @@ title: Projects
   </div>
 </div>
 <br><br>
+{% for proj in site.data.projects %}
 <hr class="featurette-divider">
 <div class="featurette">
-  <img class="featurette-image pull-right" height=500 width=500 src="/images/projects/csgo.jpg">
-  <h2 class="featurette-heading">Counter-Strike Outcomes</h2>
-  <p class="lead">How does skill account for map bias?</p>
+  <img class="featurette-image pull-right" height=500 width=500 src="{{ proj.image }}">
+  <h2 class="featurette-heading" id="#{{ proj.name }}">{{ proj.name }}</h2>
+  <p class="lead">{{ proj.description }}</p>
 </div>
-
-<hr class="featurette-divider">
-
-<div class="featurette">
-  <img class="featurette-image pull-left" height=500 width=500 src="/images/projects/crossfit.jpg">
-  <h2 class="featurette-heading">Crossfit Performance</h2>
-  <p class="lead">What factors lead to a succesfull crossfitter?</p>
-</div>
+{% endfor %}
