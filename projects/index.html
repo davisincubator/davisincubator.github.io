@@ -23,9 +23,8 @@ title: Projects
 <br><br>
 {% for proj in site.data.projects %}
 <hr id="{{ proj.name | slugify}}" class="featurette-divider">
-<a name="#{{ proj.name | slugify}}"></a>
 <div class="featurette">
-  <img class="featurette-image pull-right" height=500 width=500 src="{{ proj.image }}">
+  <img class="featurette-image pull-{% cycle 'right', 'left' %}" height=500 width=500 src="{{ proj.image }}">
   <h2 class="featurette-heading">{{ proj.name }}</h2>
   <p class="lead">{{ proj.description }}</p>
 </div>
