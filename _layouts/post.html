@@ -4,7 +4,7 @@ layout: default
 {% assign author = site.data.members[page.author] %}
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
-<h3>by: <a href="/members/{{page.author}}">{{author.name}}</a></h3>
+<h3>by: <a href="/members/{{page.author}}">{{ author.name }}</a></h3>
 <br>
 <div class="col-md-8 col-md-offset-2">
   <p>
@@ -12,4 +12,5 @@ layout: default
   </p>
   <br>
   <a class='btn btn-primary' href="/blog/">Other Blog Posts</a>
+  <br>
 </div>
