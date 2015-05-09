@@ -26,6 +26,10 @@ html {
   border-right: 1px dashed #333;
 }
 
+.post {
+  width: 75%
+}
+
 .footer {
   position: absolute;
   bottom: 0;
