@@ -36,11 +36,13 @@ title: Projects
              {% endfor %}
     <br>
     <p class='tab'>{{ proj.description }}</p>
-    <a href="{{ proj.blog }}" class="btn btn-info btn-lg text-center">Blog Post</a> &nbsp;
-    <a href="{{ proj.ghub }}" class="btn btn-info btn-lg text-center">GitHub Repo</a>
-    {% if proj.external %}
-    &nbsp;<a href="{{ proj.external }}" class="btn btn-info btn-lg text-center">Website</a>
-    {% endif %}
+    <div class="center-block">
+      <a href="{{ proj.blog }}" class="btn btn-info btn-lg">Blog Post</a> &nbsp;
+      <a href="{{ proj.ghub }}" class="btn btn-info btn-lg">GitHub Repo</a>
+      {% if proj.external %}
+      &nbsp;<a href="{{ proj.external }}" class="btn btn-info btn-lg">Website</a>
+      {% endif %}
+    </div>
   </div>
   <div class="{% cycle 'col-md-5', 'col-md-5 col-md-pull-7' %}">
     <img class="featurette-image img-responsive center-block" height=500 width=500 src="{{ proj.image }}">
