@@ -26,13 +26,15 @@ title: Projects
 <div class="featurette">
   <img class="featurette-image pull-{% cycle 'right', 'left' %}" height=500 width=500 src="{{ proj.image }}">
   <h2 class="featurette-heading">{{ proj.name }}</h2>
-  <p class="lead">{{ proj.description }}</p>
-  Made by: {% for author in proj.authors %}
+  <h3 class="lead">{{ proj.tag }}</h3>
+  <strong>Made by:</strong> {% for author in proj.authors %}
             {% if forloop.last %}
               {% if proj.authors.size > 1 %}&amp; {% endif %}{{ site.data.members[author].name }}
             {% else %}
               {{ site.data.members[author].name }}{% if proj.authors.size > 2 %},{% endif %}
             {% endif %}
            {% endfor %}
+  <p>{{ proj.description }}</p>
+  <strong>Links:</strong> <a href="{{ proj.blog }}">Blog Post</a> | <a href="{{ proj.ghub }}">GitHub Repo</a>
 </div>
 {% endfor %}

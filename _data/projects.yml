@@ -3,7 +3,11 @@
     - kylefrankovich
     - jasonarita
   name: Counter-Strike Outcomes
-  description: Visualizations of round outcomes in CS.
+  tag: Visualizations of round outcomes in CS.
+  description: "Using a combination of parsing demo files and officially
+  provided data we aimed to determine the perfect 1st round data driven strategy.
+  We mainly find that buying stuff helps a lot, but sometimes running real fast
+  can provide a substanial benefit too."
   blog: http://davisig.org/blog/2015/04/25/first-post/
   ghub: https://github.com/davisincubator/counter_strike
   image: /images/projects/csgo.jpg
@@ -11,6 +15,7 @@
 - authors:
     - bethstankevich
   name: Crossfit performance
+  tag: Who does the fit cross? It crosses for thee.
   description: What determines crossfit performance?
   blog: http://davisig.org/blog/2015/04/25/first-post/
   ghub: https://github.com/davisincubator/counter_strike
