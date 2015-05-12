@@ -36,10 +36,10 @@ title: Projects
            {% endfor %}
   <br>
   <p class='tab'>{{ proj.description }}</p>
-  <a href="{{ proj.blog }}" class="btn btn-info btn-lg">Blog Post</a> &nbsp;
+  <a href="{{ proj.blog }}" class="btn btn-info btn-lg tab">Blog Post</a> &nbsp;
   <a href="{{ proj.ghub }}" class="btn btn-info btn-lg">GitHub Repo</a>
   {% if proj.external %}
-  <a href="{{ proj.external }}" class="btn btn-info btn-lg">Website</a>
+  &nbsp;<a href="{{ proj.external }}" class="btn btn-info btn-lg">Website</a>
   {% endif %}
 </div>
 {% endfor %}
