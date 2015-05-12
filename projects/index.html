@@ -25,24 +25,22 @@ title: Projects
 <hr id="{{ proj.name | slugify}}" class="featurette-divider">
 <div class="row featurette">
   <div class="{% cycle 'col-md-7', 'col-md-7 col-md-push-5' %}">
-    <div class="center-block">
-      <h2 class="featurette-heading">{{ proj.name }}</h2>
-      <h3 class="lead">{{ proj.tag }}</h3>
-      <strong>Made by:</strong> {% for author in proj.authors %}
-                {% if forloop.last %}
-                  {% if proj.authors.size > 1 %}&amp; {% endif %}{{ site.data.members[author].name }}
-                {% else %}
-                  {{ site.data.members[author].name }}{% if proj.authors.size > 2 %},{% endif %}
-                {% endif %}
-               {% endfor %}
-      <br>
-      <p class='tab'>{{ proj.description }}</p>
-      <a href="{{ proj.blog }}" class="btn btn-info btn-lg tab">Blog Post</a> &nbsp;
-      <a href="{{ proj.ghub }}" class="btn btn-info btn-lg">GitHub Repo</a>
-      {% if proj.external %}
-      &nbsp;<a href="{{ proj.external }}" class="btn btn-info btn-lg">Website</a>
-      {% endif %}
-    </div>
+    <h2 class="featurette-heading">{{ proj.name }}</h2>
+    <h3 class="lead">{{ proj.tag }}</h3>
+    <strong>Made by:</strong> {% for author in proj.authors %}
+              {% if forloop.last %}
+                {% if proj.authors.size > 1 %}&amp; {% endif %}{{ site.data.members[author].name }}
+              {% else %}
+                {{ site.data.members[author].name }}{% if proj.authors.size > 2 %},{% endif %}
+              {% endif %}
+             {% endfor %}
+    <br>
+    <p class='tab'>{{ proj.description }}</p>
+    <a href="{{ proj.blog }}" class="btn btn-info btn-lg tab center-block">Blog Post</a> &nbsp;
+    <a href="{{ proj.ghub }}" class="btn btn-info btn-lg center-block">GitHub Repo</a>
+    {% if proj.external %}
+    &nbsp;<a href="{{ proj.external }}" class="btn btn-info btn-lg center-block">Website</a>
+    {% endif %}
   </div>
   <div class="{% cycle 'col-md-5', 'col-md-5 col-md-pull-7' %}">
     <img class="featurette-image img-responsive center-block" height=500 width=500 src="{{ proj.image }}">
