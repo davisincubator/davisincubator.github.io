@@ -26,6 +26,8 @@ html {
   border-right: 1px dashed #333;
 }
 
+.tab { margin-left: 40px; }
+
 .footer {
   position: absolute;
   bottom: 0;

@@ -34,7 +34,7 @@ title: Projects
               {{ site.data.members[author].name }}{% if proj.authors.size > 2 %},{% endif %}
             {% endif %}
            {% endfor %}
-  <p>{{ proj.description }}</p>
+  <p class='tab'>{{ proj.description }}</p>
   <strong>Links:</strong> <a href="{{ proj.blog }}">Blog Post</a> | <a href="{{ proj.ghub }}">GitHub Repo</a>
 </div>
 {% endfor %}
