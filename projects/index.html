@@ -24,7 +24,7 @@ title: Projects
 {% for proj in site.data.projects %}
 <hr id="{{ proj.name | slugify}}" class="featurette-divider">
 <div class="row featurette">
-  <div class="{% cycle 'col-md-7', 'col-md-7 col-md-push-5' %}">
+  <div class="{% cycle 'col-md-7', 'col-md-7 col-md-push-6' %}">
     <h2 class="featurette-heading">{{ proj.name }}</h2>
     <h3 class="lead">{{ proj.tag }}</h3>
     <strong>Made by:</strong> {% for author in proj.authors %}
@@ -34,8 +34,9 @@ title: Projects
                 {{ site.data.members[author].name }}{% if proj.authors.size > 2 %},{% endif %}
               {% endif %}
              {% endfor %}
-    <br>
+    <br><br>
     <p class='tab'>{{ proj.description }}</p>
+    <br><br>
     <div class="text-center">
       <a href="{{ proj.blog }}" class="btn btn-info btn-lg">Blog Post</a> &nbsp;
       <a href="{{ proj.ghub }}" class="btn btn-info btn-lg">GitHub Repo</a>
