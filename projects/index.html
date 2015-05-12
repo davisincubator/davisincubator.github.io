@@ -24,7 +24,7 @@ title: Projects
 {% for proj in site.data.projects %}
 <hr id="{{ proj.name | slugify}}" class="featurette-divider">
 <div class="row featurette">
-  <div class={% cycle 'col-md-7', 'col-md-7 col-md-push-5' %}>
+  <div class="{% cycle 'col-md-7', 'col-md-7 col-md-push-5' %}">
     <h2 class="featurette-heading">{{ proj.name }}</h2>
     <h3 class="lead">{{ proj.tag }}</h3>
     <strong>Made by:</strong> {% for author in proj.authors %}
@@ -42,7 +42,7 @@ title: Projects
     &nbsp;<a href="{{ proj.external }}" class="btn btn-info btn-lg">Website</a>
     {% endif %}
   </div>
-  <div class = {% cycle 'col-md-5', 'col-md-5 col-md-pull-7' %}>
+  <div class="{% cycle 'col-md-5', 'col-md-5 col-md-pull-7' %}">
     <img class="featurette-image img-responsive center-block" height=500 width=500 src="{{ proj.image }}">
   </div>
 </div>
