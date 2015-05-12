@@ -24,7 +24,7 @@ title: Projects
 {% for proj in site.data.projects %}
 <hr id="{{ proj.name | slugify}}" class="featurette-divider">
 <div class="row featurette">
-  <div class="{% cycle 'col-md-7', 'col-md-7 col-md-push-5' %}">
+  <div class="{% cycle 'col-md-7', 'col-md-7 col-md-push-5' %} text-center">
     <h2 class="featurette-heading">{{ proj.name }}</h2>
     <h3 class="lead">{{ proj.tag }}</h3>
     <strong>Made by:</strong> {% for author in proj.authors %}
