@@ -1,4 +1,4 @@
 # davisincubator.github.io
 Group Website
-URL: [davisig.org](davisig.org)
+URL: [davisig.org](http://davisig.org)
 
