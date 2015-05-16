@@ -3,7 +3,7 @@
   <h1>
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
   </h1>
-  by: <a href="/members/{{post.author}}">{{author.name}}</a> <a href="https://twitter.com/{{ author.twitter }}" target="_blank"><img style="width:16px;height:16px;vertical-align:middle"height=16 width=16 src="/images/smediaicons/twitter-variation.png"></a><p class="meta">{{ post.date | date_to_string }}</p>
+  by: <a href="/members/{{post.author}}">{{author.name}}</a><p class="meta">{{ post.date | date_to_string }}</p>
   {{ post.excerpt }}
   <a href="{{ root_url }}{{ post.url }}"><p class='text-right'>Continue Reading</p></a>
 {% endfor %}
