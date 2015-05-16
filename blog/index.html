@@ -3,12 +3,13 @@ layout: default
 title: All Posts
 ---
 <h1>{{ page.title }}</h1>
-<table class='table'>
+<table class='table table-hover'>
 	<tr>
 		<th>Date</th>
 		<th>Title</th>
 		<th>Authors</th>
 	</tr>
+	<tbody>
 	{% for post in site.posts %}
 		<tr>
 			<td>{{ post.date | date_to_string }}</td>
@@ -19,4 +20,5 @@ title: All Posts
 					{% endfor %}</td>
 		</tr>
 	{% endfor %}
+</tbody>
 </table>
