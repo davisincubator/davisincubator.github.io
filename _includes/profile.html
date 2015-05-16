@@ -46,17 +46,18 @@
           <table class="table table-condensed" width=80%>
             <tr>
               <th>Date</th>
-              <th>Title</th>
+              <th align = "center">Title</th>
             </tr>
             <tbody class="table-hover">
             {% for post in site.posts %}
-            {% assign pauthor = site.data.members[post.author] %}
-            {% if pauthor.name == member.name %}
-            <tr>
-              <td>{{ post.date | date_to_string }}</td>
-              <td align="center"><a href={{ post.url }}>{{ post.title }}</a></td>
-            </tr>
-            {% endif %}
+              {% for author in post.author %}
+                {% assign pauthor = site.data.members[author] %}
+                {% if pauthor.name == member.name %}
+                  <tr>
+                    <td>{{ post.date | date_to_string }}</td>
+                    <td align="center"><a href={{ post.url }}>{{ post.title }}</a></td>
+                  </tr>
+                {% endif %}
             {% endfor %}
             </tbody>
           </table>
