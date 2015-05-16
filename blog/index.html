@@ -3,12 +3,21 @@ layout: default
 title: All Posts
 ---
 <h1>{{ page.title }}</h1>
-<ul class="posts">
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Title</th>
+		<th>Authors</th>
+	</tr>
 	{% for post in site.posts %}
-	{% assign author = site.data.members[post.author] %}
-<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> by:{% for author in post.author %}
-    {% if post.author.size > 1 and forloop.last %}&amp;{% endif %}
-    <a href="/members/{{ author }}">{{ site.data.members[author].name}}</a>{% if post.author.size > 2 and forloop.last == false %},{% endif %}
-  {% endfor %}</li>
+		<tr>
+			<td>{{ post.date | date_to_string }</td>
+			<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+			<td>{% for author in post.author %}
+    				{% if post.author.size > 1 and forloop.last %}&amp;{% endif %}
+    				<a href="/members/{{ author }}">{{ site.data.members[author].name}}</a>{% if post.author.size > 2 and forloop.last == false %},{% endif %}
+					</td>
+						{% endfor %}
+		</tr>
 	{% endfor %}
-</ul>
+</table>
