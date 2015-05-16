@@ -4,11 +4,13 @@ title: All Posts
 ---
 <h1>{{ page.title }}</h1>
 <table class='table table-hover'>
+	<thead>
 	<tr>
 		<th>Date</th>
 		<th>Title</th>
 		<th>Authors</th>
 	</tr>
+	</thead>
 	<tbody>
 	{% for post in site.posts %}
 		<tr>
@@ -20,5 +22,5 @@ title: All Posts
 					{% endfor %}</td>
 		</tr>
 	{% endfor %}
-</tbody>
+	</tbody>
 </table>
