@@ -5,9 +5,9 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 <h3>by:
   {% for author in page.author %}
-  {% if page.author.size > 1 & forloop.last %}&amp;{% endif %}
-  <a href="/members/{{ author }}">{{ site.data.members[author].name }}</a>
-  {% if page.author.size > 2 %},{% endif %}
+    {% if page.author.size > 1 and forloop.last %}&amp;{% endif %}
+    <a href="/members/{{ author }}">{{ site.data.members[author].name }}</a>
+    {% if page.author.size > 2 %},{% endif %}
   {% endfor %}
 </h3>
 <br>
