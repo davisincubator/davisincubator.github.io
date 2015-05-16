@@ -6,7 +6,7 @@ layout: default
 <h3>by:
   {% for author in page.author %}
     {% if page.author.size > 1 and forloop.last %}&amp;{% endif %}
-    <a href="/members/{{ author }}">{{ site.data.members[author].name }}</a>{% if page.author.size > 2 and not forloop.last %},{% endif %}
+    <a href="/members/{{ author }}">{{ site.data.members[author].name}}</a>{% if page.author.size > 2 and forloop.last == false %},{% endif %}
   {% endfor %}
 </h3>
 <br>
