@@ -11,7 +11,7 @@ title: All Posts
 	</tr>
 	{% for post in site.posts %}
 		<tr>
-			<td>{{ post.date | date_to_string }</td>
+			<td>{{ post.date | date_to_string }}</td>
 			<td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 			<td>{% for author in post.author %}
     				{% if post.author.size > 1 and forloop.last %}&amp;{% endif %}
