@@ -1,12 +1,12 @@
 {% for post in site.posts limit: 3 %}
-  {% assign author = site.data.members[post.author] %}
   <h1>
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
   </h1>
   by:{% for author in post.author %}
       {% if post.author.size > 1 and forloop.last %}&amp;{% endif %}
       <a href="/members/{{ author }}">{{ site.data.members[author].name}}</a>{% if post.author.size > 2 and forloop.last == false %},{% endif %}
-    {% endfor %}<p class="meta">{{ post.date | date_to_string }}</p>
+    {% endfor %}
+    <p class="meta">{{ post.date | date_to_string }}</p>
   {{ post.excerpt }}
   <a href="{{ root_url }}{{ post.url }}"><p class='text-right'>Continue Reading</p></a>
 {% endfor %}
