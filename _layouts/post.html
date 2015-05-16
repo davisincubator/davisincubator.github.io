@@ -16,7 +16,7 @@ layout: default
   </p>
   <br>
   <div class="row blog-footer">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="davisincgrp {% for author in page.author %}@{{site.data.members[author].twitter}} {% endfor %}" data-size="large" data-related="davisincgrp {{ author.twitter }}">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="davisincgrp {% for author in page.author %}@{{site.data.members[author].twitter}}{% if forloop.last == false} {% endif %}{% endfor %}" data-size="large" data-related="davisincgrp {{ author.twitter }}">Tweet</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     <div class='pull-right'>
       <a class='btn btn-primary btn-sm' href="/blog/">Other Blog Posts</a>
