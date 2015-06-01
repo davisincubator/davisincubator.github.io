@@ -6,13 +6,14 @@ author:
   - emilyhalket
 ---
 
-## Finally, I am getting around to telling you about [color brewer](http://colorbrewer2.org/). 
+## The Basics
+
+I want to tell you about [color brewer](http://colorbrewer2.org/) and why you should start using it today!  
 
 Essentially, color brewer allows you to create a color palette that conveys an additional layer of meaning when displaying your data.
+
 There are options for **sequential**, **diverging**, or **qualitative** palettes.
 Within each type of palette, there are a variety of color options.
-
-## The Basics
 
 The **sequential** palettes vary in lightness. Within a blue sequential palette, high values would shown in a saturated blue while low values would be shown in a light blue.
 
