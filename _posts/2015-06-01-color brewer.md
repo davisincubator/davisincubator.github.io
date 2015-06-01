@@ -1,11 +1,10 @@
 ---
 layout: post
 date: 2015-06-01
+title: "Color Brewer"
 author:
   - emilyhalket
 ---
-
-# Color Brewer
 
 Finally, I am getting around to telling you about [color brewer](http://colorbrewer2.org/). 
 Essentially, color brewer allows you to create a color palette that conveys an additional layer of meaning when displaying your data.
@@ -36,3 +35,5 @@ Truly though, you don't have to think too much because color theorists have done
 ## Go Check it out!
 
 So now that you're fully sold on mindfully choosing a color palette, head over to [color brewer](http://colorbrewer2.org/) to check out your options. If you go through the site, you can even choose colors that are color blind or photocopier safe! If you're an R user, also check out the [package documentation](http://cran.r-project.org/web/packages/RColorBrewer/RColorBrewer.pdf) to read how to quickly implement in R.
+
+
