@@ -34,7 +34,7 @@ In my zeal for color brewer I would maybe even go as far to say that it can be i
 
 Truly though, you don't have to think too much because color theorists have done it for you. All you have to think about is the type of data you are displaying, and one would hope you've already thought about that!
 
-## Go Check it out!
+## Go Check it Out!
 
 So now that you're fully sold on mindfully choosing a color palette, head over to [color brewer](http://colorbrewer2.org/) to check out your options. If you go through the site, you can even choose colors that are color blind or photocopier safe! If you're an R user, also check out the [package documentation](http://cran.r-project.org/web/packages/RColorBrewer/RColorBrewer.pdf) to read how to quickly implement in R.
 
