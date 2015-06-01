@@ -6,7 +6,8 @@ author:
   - emilyhalket
 ---
 
-Finally, I am getting around to telling you about [color brewer](http://colorbrewer2.org/). 
+## Finally, I am getting around to telling you about [color brewer](http://colorbrewer2.org/). 
+
 Essentially, color brewer allows you to create a color palette that conveys an additional layer of meaning when displaying your data.
 There are options for **sequential**, **diverging**, or **qualitative** palettes.
 Within each type of palette, there are a variety of color options.
