@@ -8,14 +8,23 @@ author:
 How often is this you and your significant other:
 
 > You: Hey, the dishes are dirty. Let's go out to eat instead of being Adults.
+>
 >SO: That sounds good, how about Chinese?
+>
 >You: I had Chinese for lunch.
+>
 >SO: Alright, what about Indian food? Naan is so good.
+>
 >You: I don't like the Indian food around here.
+>
 >SO: Fine. You choose something then.
+>
 >You: How about Pizza?
+>
 >SO: I had pizza yesterday.
+>
 >You: OK, let's just starve then.
+>
 >SO: It's the only option we can agree on!
 
 Luckily for you and your loved ones an app has been invented that can prevent voluntary starvation by helping you find places to dine-out. It's called [chooseeats.com](www.chooseeats.com) and it makes the above conversation a thing of the past, like blockbuster.
