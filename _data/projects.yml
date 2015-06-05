@@ -1,23 +1,13 @@
 - authors:
     - ndiquattro
-    - kylefrankovich
-    - jasonarita
-  name: Counter-Strike Outcomes
-  tag: Visualizations of round outcomes in CS.
-  description: "Using a combination of parsing demo files and officially
-  provided data we aimed to determine the perfect 1st round data driven strategy.
-  We mainly find that buying stuff helps a lot, but sometimes running real fast
-  can provide a substanial benefit too."
+  name: chooseeats
+  tag: A webapp for eating with friends.
+  description: "Chooseeats compares the check-in and ratings history hidden in
+  the [foursquare](www.foursquare.com) and [swarm](www.swarmapp.com) accounts of
+   you and your potential dining partner. It finds restaurant types (Chinese
+   food, Italian, etc) that both people have liked and displays them in order
+   with the length of time since you've checked in to that type."
   blog: http://davisig.org/blog/2015/04/25/first-post/
-  ghub: https://github.com/davisincubator/counter_strike
-  external: www.steampowered.com
-  image: /images/projects/csgo.jpg
-
-- authors:
-    - bethstankevich
-  name: Crossfit performance
-  tag: Who does the fit cross? It crosses for thee.
-  description: What determines crossfit performance?
-  blog: http://davisig.org/blog/2015/04/25/first-post/
-  ghub: https://github.com/davisincubator/counter_strike
-  image: /images/projects/crossfit.jpg
+  ghub: https://github.com/ndiquattro/chooseeats
+  external: www.chooseeats.com
+  image: /images/projects/fsquare.jpg
