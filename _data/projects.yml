@@ -3,11 +3,11 @@
   name: chooseeats
   tag: A webapp for eating with friends.
   description: "Chooseeats compares the check-in and ratings history hidden in
-  the [foursquare](www.foursquare.com) and [swarm](www.swarmapp.com) accounts of
+  the foursquare and swarm accounts of
    you and your potential dining partner. It finds restaurant types (Chinese
    food, Italian, etc) that both people have liked and displays them in order
    with the length of time since you've checked in to that type."
-  blog: http://davisig.org/blog/2015/04/25/first-post/
+  blog: http://davisig.org/blog/2015/06/05/chooseeats/
   ghub: https://github.com/ndiquattro/chooseeats
   external: www.chooseeats.com
   image: /images/projects/fsquare.jpg
