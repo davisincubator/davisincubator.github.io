@@ -6,7 +6,7 @@ author:
 title: Online Course Review
 ---
 
-# My thoughts on an online intro computer science course
+# My thoughts on Udacity's Intro Computer Science course
 
 Recently I wrapped up [Udacity's](https://www.udacity.com/) 
 [Intro to Computer Science Course](https://www.udacity.com/course/intro-to-computer-science--cs101), 
