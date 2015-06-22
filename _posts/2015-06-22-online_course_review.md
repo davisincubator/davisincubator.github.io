@@ -18,14 +18,13 @@ I chose this course because I felt that I needed a little bit
 more practice with python before starting the [Data Science Course](https://www.udacity.com/course/intro-to-data-science--ud359).
 Previously, I had taken [Code Academy's](www.codeacademy.com) [python](http://www.codecademy.com/en/tracks/python) course, 
 which was a good start but ultimately I found it a little lacking for my needs.
-I didn't participate "fully" in the Udacity course -- in that I did not pay for full access.
-Side effect of a grad student income I suppose! I did watch the lectures and complete the quizzes and problem sets.
-Overall, I'm really glad that I went through the course materials and I feel that I was able to learn a lot, even without full access.
+I didn't participate "fully" in the Udacity course (in that I did not pay for full access-- side effect of a grad student income I suppose!). I did watch the lectures and complete the quizzes and problem sets.
+Overall, I'm really glad that I went through the course materials, and I feel that I was able to learn a lot even without full access.
 
 ##Pros: 
 I liked that a number of the quizzes required a **conceptual understanding** of the material, rather than only requiring a script to execute successfully.
 I also liked the depth/breadth balance of the material that was covered. 
-I was able to practice --and better understand-- what I had learned from the Code Academy course and I also learned new information.
+I was able to practice and better understand what I had learned from the Code Academy course, and I also learned new information.
 Another pro, and reason why I chose to follow this course rather than one from [Coursera](https://www.coursera.org/), was that it was available on demand.
 
 ##Cons: 
