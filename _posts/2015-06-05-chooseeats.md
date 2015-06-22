@@ -27,10 +27,10 @@ How often is this you and your significant other:
 >
 >SO: It's the only option we can agree on!
 
-Luckily for you and your loved ones an app has been invented that can prevent voluntary starvation by helping you find places to dine-out. It's called [chooseeats.com](www.chooseeats.com) and it makes the above conversation a thing of the past, like blockbuster.
+Luckily for you and your loved ones an app has been invented that can prevent voluntary starvation by helping you find places to dine-out. It's called [chooseeats.com](http://www.chooseeats.com) and it makes the above conversation a thing of the past, like blockbuster.
 
 ## How it works.
-Chooseeats compares the check-in and ratings history hidden in the [foursquare](www.foursquare.com) and [swarm](www.swarmapp.com) accounts of you and your potential dining partner. It finds restaurant types (Chinese food, Italian, etc) that both people have visited and displays them in order by time since last check-in and percentage of "liked". The philosophy here is that the ideal restaurant is of a type both people enjoy *and* haven't been to in a while. By simply showing you the restaurant types that meet these criteria, you won't have to discover it through the tedious process of recounting your recent meal conquests or long standing preferences.
+Chooseeats compares the check-in and ratings history hidden in the [foursquare](http://www.foursquare.com) and [swarm](http://www.swarmapp.com) accounts of you and your potential dining partner. It finds restaurant types (Chinese food, Italian, etc) that both people have visited and displays them in order by time since last check-in and percentage of "liked". The philosophy here is that the ideal restaurant is of a type both people enjoy *and* haven't been to in a while. By simply showing you the restaurant types that meet these criteria, you won't have to discover it through the tedious process of recounting your recent meal conquests or long standing preferences.
 
 ## Current Features.
 As of now, chooseeats lets you see which restaurants you haven't been to in a while and how much you like those types. You can also choose one of your foursquare friends to eat with and see suggestions based on restaurants you both like. Using chooseeats requires authenticating the app with foursquare.
