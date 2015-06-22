@@ -1,10 +1,12 @@
 ---
 layout: post
 date: 2015-06-22
-author: emilyhalket
+author: 
+  -emilyhalket
+title: Online Course Review
 ---
 
-# Online Course Review
+
 
 Recently I wrapped up [Udacity's](https://www.udacity.com/) 
 [Intro to Computer Science Course](https://www.udacity.com/course/intro-to-computer-science--cs101), 
