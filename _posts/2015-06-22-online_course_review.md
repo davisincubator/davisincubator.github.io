@@ -2,11 +2,11 @@
 layout: post
 date: 2015-06-22
 author: 
-  -emilyhalket
+  - emilyhalket
 title: Online Course Review
 ---
 
-
+# My thoughts on an online intro computer science course
 
 Recently I wrapped up [Udacity's](https://www.udacity.com/) 
 [Intro to Computer Science Course](https://www.udacity.com/course/intro-to-computer-science--cs101), 
@@ -32,6 +32,6 @@ I was expecting a little more of what I imagined would be covered in an intro co
 I have never been a computer science major, nor have I taken such a class, so the problem could be more with my expectations. 
 Regardless, my ideal course would have gone into more conceptual computer science, independent of python.
 
-##Take home message: 
+##Summary: 
 Given that my goal was to build on my basic understanding of python, I feel like this course was absolutely worth my time. I can't say that, looking back, I would have greatly benefited from (paid) full access features. 
 
