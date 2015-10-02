@@ -14,8 +14,7 @@ You need to be clairvoyant when choosing a healthcare plan. You must be able to 
 
 Currently, HealthSherpa provides customers with a fantastic, simple, and informative breakdown of the features a healthcare plan has. However, the list of plans a customer has to choose from is all viable plans available in the customer’s area (e.g., 26 plans for me to choose from). 
 
-
-![HealthSherpaPlan](https://github.com/bstankev/insight_img/blob/master/HSplan.png?raw=true) 
+![HealthSherpaPlan](https://github.com/bstankev/insight_img/blob/master/HSplan.png) 
 
 
 HealthSherpa is dedicated to thoughtfully reducing this list. Thus, begins my project. I am providing them with an early peak at the data they have gathered and helping them move forward towards their goal of predicting what healthcare plans a person will need. Specifically, I drilled down into the kinds of features that are predictive of healthcare expenditure and created a model of healthcare expenditures. HealthSherpa will leverage this information to reduce the list of plans they show to customers. 
@@ -23,8 +22,7 @@ HealthSherpa is dedicated to thoughtfully reducing this list. Thus, begins my pr
 ## **The project before the project.**  
 I am new to the healthcare market having been in school or working for the government for the past forever. I already understood that there was a lot of information contained in each plan, but I had zero clue as to the volume of plans available. I found a publicly available dataset on data.healthcare.gov with data on healthcare plans available across the country. Most people are faced with choosing between 20 and 40 plans. Some, especially and perhaps unsurprisingly in Florida, are faced with 100+ choices. That is insane. It illustrates the need for a company like HealthSherpa to wade through the plan space to make personal suggestions for its customers. 
 
-<img src="https://github.com/bstankev/insight_img/blob/master/planCount.png" width="400" height="300" allign="center" />
-
+![PlanCount](https://github.com/bstankev/insight_img/blob/master/planCount.png)
 
 ## **Starting the project. The data.** 
 Some serious legwork was done by HealthSherpa to translate a publicly available dataset that was in a SAS or STATA format into a .csv file. The data comes from the Medical Expenditure Panel Survey (MEPS). It contains data from 2012 on ~38,000 people across 3 survey dates and encompasses ~1,900 variables. The information collected ranges from demographics to health status to healthcare expenditures. What the dataset does not contain is information on the specific plans people are on nor does it contain zipcode (geospatial) information. Omitting specific location information like a zipcode or county keeps the information people provided private. However, the lack of information makes it difficult to leverage census information or to zoom in on plan availability (remember, I already had plan information broken down by county from the government). 
