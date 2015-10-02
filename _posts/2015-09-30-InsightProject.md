@@ -37,7 +37,7 @@ I opted for a quasi-manual approach using a random forest regressor to get featu
 
 ![featimp](https://cloud.githubusercontent.com/assets/11904975/10254597/ae53d0de-68f9-11e5-9d81-cbacff9c77e2.png) 
 
-> Feature importances for the features ranked the most highly..
+> Feature importances. Top-6 highest ranked features.
 
 ## **Features. They tell a powerful story.**
 The quasi-manual approach I utilized served a more important purpose. The end goal is for HealthSherpa to ask their customers a few quick questions and then link them up with a plan. Let’s highlight ‘few’ and ‘quick’. No one wants to answer a ton of long-winded questions. Nor does HealthSherpa want to make people answer 40+ questions before getting plan recommendations. Using my own eyes as a first-pass filter was, for now, a good way to understand whether HealthSherpa could easily ask someone for this information. 
