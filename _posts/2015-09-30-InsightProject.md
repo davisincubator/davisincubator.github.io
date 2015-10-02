@@ -33,7 +33,7 @@ The column names from the MEPS data were not in plain English (e.g., ‘RTHLTH53
 
 I opted for a quasi-manual approach using a random forest regressor to get feature importances (I also tried recursive feature selection and forward selection, but this worked best for me). I set a feature importance cut off value and took all features above that line. 
 
-<img src="https://github.com/bstankev/insight_img/blob/master/featImp.png" width="400" height="200" />
+<img src="https://github.com/davisincubator/davisincubator.github.io/blob/master/images/projects/blog/beth/featImp.png" width="400" height="200" />
 > Feature importances for the features ranked the most highly..
 
 ## **Features. They tell a powerful story.**
