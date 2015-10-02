@@ -5,7 +5,7 @@ date: 2015-09-30
 author:
   - bethstankevich
 ---
-For the TLDR version, check out my [slides]( https://www.slideshare.net/secret/3VsCdmITn7jGgl).  
+For the TLDR version, check out my [slides]( https://www.slideshare.net/secret/3VsCdmITn7jGgl "slides").  
 Check out my Github for the [code](https://github.com/bstankev/Insight_DataProject "code"). 
 
 For the past 2+ weeks I have worked with the startup company [HealthSherpa](https://www.healthsherpa.com/ "HealthSherpa") to predict healthcare expenditures across a range of services (e.g., ER visits, primary care visits). The long game of this prediction is to link up people and their healthcare expenditures with a healthcare plan that a) provides the plan and services they need, b) helps reduce their out of pocket expenses, and c) empowers them with information to make an informed healthcare decision. HealthSherpa’s major goal is to make navigating the healthcare market tractable for the average person. 
