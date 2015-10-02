@@ -15,7 +15,7 @@ You need to be clairvoyant when choosing a healthcare plan. You must be able to 
 Currently, HealthSherpa provides customers with a fantastic, simple, and informative breakdown of the features a healthcare plan has. However, the list of plans a customer has to choose from is all viable plans available in the customer’s area (e.g., 26 plans for me to choose from). 
 
 
-![HealthSherpaPlan](https://github.com/bstankev/insight_img/blob/master/HSplan.png) 
+![HealthSherpaPlan](https://github.com/bstankev/insight_img/blob/master/HSplan.png?raw=true) 
 
 
 HealthSherpa is dedicated to thoughtfully reducing this list. Thus, begins my project. I am providing them with an early peak at the data they have gathered and helping them move forward towards their goal of predicting what healthcare plans a person will need. Specifically, I drilled down into the kinds of features that are predictive of healthcare expenditure and created a model of healthcare expenditures. HealthSherpa will leverage this information to reduce the list of plans they show to customers. 
