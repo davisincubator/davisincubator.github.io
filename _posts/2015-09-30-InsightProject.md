@@ -69,14 +69,14 @@ Rooting around in the features uncovered two different populations of people tha
 **Random forest classifier (RFC).**
 Why choose RFC?
 
-1) Can deal with categorical and continuous data
-2) More robust against overfitting than decision trees
-3) Runtime is fast
-4) Able to deal with unbalanced and missing data (though I found that unbalanced classes were poorly predicted)
-5) Aren’t troubled by noisy features
-6) Can deal with non-linearities in the data
-7) Non-parametric model 
-8) Provide easy to understand results (unlike a neural net)
+1. Can deal with categorical and continuous data
+2. More robust against overfitting than decision trees
+3. Runtime is fast
+4. Able to deal with unbalanced and missing data (though I found that unbalanced classes were poorly predicted)
+5. Aren’t troubled by noisy features
+6. Can deal with non-linearities in the data
+7. Non-parametric model 
+8. Provide easy to understand results (unlike a neural net)
 
 What to think about: Even though RFCs are more robust to overfitting, it is still an issue. Additionally, it may not be feasible to utilize this model in real as using a large number of trees in the model can make the algorithm slow to run.
 
@@ -90,13 +90,13 @@ What else did I try: started with a very simple logistic regression, but it perf
 **Gradient boosted regression tree (GBRT).**
 Why choose GBRT?
 
-1) Can deal with categorical and continuous data
-2) More robust against overfitting than both decision trees and random forests
-3) Able to deal with unbalanced and missing data (though I found that unbalanced classes were poorly predicted)
-4) Aren’t troubled by noisy features
-5) Can deal with non-linearities in the data
-6) Non-parametric model 
-7) Provide easy to understand results (unlike a neural net)
+1. Can deal with categorical and continuous data
+2. More robust against overfitting than both decision trees and random forests
+3. Able to deal with unbalanced and missing data (though I found that unbalanced classes were poorly predicted)
+4. Aren’t troubled by noisy features
+5. Can deal with non-linearities in the data
+6. Non-parametric model 
+7. Provide easy to understand results (unlike a neural net)
 
 What to think about: A problem inherent to any sort of decision tree is overfitting. Use a deviance plot to show the training and testing error vs. number of trees used to understand the point at which adding more trees results in overfitting. GBRT is generally more robust to overfitting because you have a lot of parameters at your fingertips to control overfitting. 
 
@@ -116,13 +116,13 @@ Both highly educated and impoverished people spend more on healthcare. Those two
 ![kmmod](https://cloud.githubusercontent.com/assets/11904975/10254658/f57de2a6-68f9-11e5-84b1-183b65193401.png)  
 > Workflow for doing the k-means clustering.  
 
-The 4 cluster k-means model capture two obvious groups (see below).   
-1) The youngest population with lowest BMI who felt "good". They spent the least on healthcare.   
-2) The oldest population with highest BMI who felt "bad". Thay spent the most on healthcare.  
+The 4 cluster k-means model capture two obvious groups (see below).     
+1. The youngest population with lowest BMI who felt "good". They spent the least on healthcare.     
+2. The oldest population with highest BMI who felt "bad". Thay spent the most on healthcare.    
 
-Then there were two clusters that were similar in age and expenditure. However they were differentiated on poverty, BMI, and how they felt.  
-3) Higher BMI, less impoverished, feel "bad".  
-4) Lower BMI, more impoverished, feel "good".    
+Then there were two clusters that were similar in age and expenditure. However they were differentiated on poverty, BMI, and how they felt.    
+3. Higher BMI, less impoverished, feel "bad".    
+4. Lower BMI, more impoverished, feel "good".      
 These two groups exhibit how different attributes can be swapped between peopple and result in a similar level of spending. In this case, a high BMI and feeling "bad" were equivalent to being more impoverished. 
 
 ![kmeans](https://cloud.githubusercontent.com/assets/11904975/10254654/f56acfcc-68f9-11e5-88bf-eba22e1a9146.png)    
