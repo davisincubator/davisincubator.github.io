@@ -15,7 +15,6 @@ You need to be clairvoyant when choosing a healthcare plan. You must be able to 
 Currently, HealthSherpa provides customers with a fantastic, simple, and informative breakdown of the features a healthcare plan has. However, the list of plans a customer has to choose from is all viable plans available in the customer’s area (e.g., 26 plans for me to choose from). 
 
 ![HealthSherpaPlan] (https://raw.githubusercontent.com/davisincubator/davisincubator.github.io/blob/master/images/projects/blog/beth/HSplan.png) 
-({{ site.url }}/assets/screenshot.jpg
 > Sample plan information a customer would see when searching for a plan.
 
 HealthSherpa is dedicated to thoughtfully reducing this list. Thus, begins my project. I am providing them with an early peak at the data they have gathered and helping them move forward towards their goal of predicting what healthcare plans a person will need. Specifically, I drilled down into the kinds of features that are predictive of healthcare expenditure and created a model of healthcare expenditures. HealthSherpa will leverage this information to reduce the list of plans they show to customers. 
@@ -34,7 +33,7 @@ The column names from the MEPS data were not in plain English (e.g., ‘RTHLTH53
 
 I opted for a quasi-manual approach using a random forest regressor to get feature importances (I also tried recursive feature selection and forward selection, but this worked best for me). I set a feature importance cut off value and took all features above that line. 
 
-<img src="https://github.com/davisincubator/davisincubator.github.io/blob/master/images/projects/blog/beth/featImp.png" width="400" height="200" />
+<img src="https://raw.githubusercontent.com/davisincubator/davisincubator.github.io/blob/master/images/projects/blog/beth/featImp.png" width="400" height="200" />
 > Feature importances for the features ranked the most highly..
 
 ## **Features. They tell a powerful story.**
