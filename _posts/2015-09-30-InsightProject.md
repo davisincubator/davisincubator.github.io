@@ -74,6 +74,8 @@ Why choose RFC?
 
 What to think about: Even though RFCs are more robust to overfitting, it is still an issue. Additionally, it may not be feasible to utilize this model in real as using a large number of trees in the model can make the algorithm slow to run.
 
+<img src="https://github.com/bstankev/insight_img/blob/master/rfc.png" width="600" height="150" />
+
 What else did I try: started with a very simple logistic regression, but it performed a bit worse and required extra feature manipulation steps. 
 
 ## **Model – part 2. How much money money will you spend?**
@@ -91,6 +93,8 @@ Why choose GBRT?
 
 What to think about: A problem inherent to any sort of decision tree is overfitting. Use a deviance plot to show the training and testing error vs. number of trees used to understand the point at which adding more trees results in overfitting. GBRT is generally more robust to overfitting because you have a lot of parameters at your fingertips to control overfitting. 
 
+<img src="https://github.com/bstankev/insight_img/blob/master/gbrt.png" width="400" height="200" />
+
 What I tried: I initially started with a logistic regression followed by random forest, in the end GBRT worked the best.
 
 >**Summary:** A lot of bang for my buck was gained (in order of importance) through thoughtful feature reduction, imputation of missing features, dealing with class imbalances (for categorization only), and using hyperparameter tuning. However, model performance could be improved possibly through additional rounds of feature selection and the addition of more data. 
@@ -101,6 +105,6 @@ What I tried: I initially started with a logistic regression followed by random 
 ## **Pet project.** 
 Both highly educated and impoverished people spend more on healthcare. Those two populations, while showing similar trends, likely require different healthcare plans. Understanding the profiles that exist in this data may provide some added insight about the plans you might suggest to one population compared to another. 
 
-![kmean](/images/kmean.png)
+<img src="https://github.com/bstankev/insight_img/blob/master/kmMod.png" width="400" height="300" />
 
-![kmRes](/images/kmRes.png)
+<img src="https://github.com/bstankev/insight_img/blob/master/kmeans.png" width="400" height="300" />
