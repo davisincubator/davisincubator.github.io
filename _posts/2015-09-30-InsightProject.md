@@ -22,7 +22,7 @@ HealthSherpa is dedicated to thoughtfully reducing this list. Thus, begins my pr
 ## **The project before the project.**  
 I am new to the healthcare market having been in school or working for the government for the past forever. I already understood that there was a lot of information contained in each plan, but I had zero clue as to the volume of plans available. I found a publicly available dataset on data.healthcare.gov with data on healthcare plans available across the country. Most people are faced with choosing between 20 and 40 plans. Some, especially and perhaps unsurprisingly in Florida, are faced with 100+ choices. That is insane. It illustrates the need for a company like HealthSherpa to wade through the plan space to make personal suggestions for its customers. 
 
-![PlanCount](https://github.com/bstankev/insight_img/blob/master/planCount.png)
+![PlanCount](https://github.com/davisincubator/davisincubator.github.io/blob/master/images/projects/blog/beth/planCount.png)
 > Number of counties across the country that offer that many plans. 
 
 ## **Starting the project. The data.** 
