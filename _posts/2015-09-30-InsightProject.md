@@ -116,13 +116,13 @@ Both highly educated and impoverished people spend more on healthcare. Those two
 <img src="https://github.com/bstankev/insight_img/blob/master/kmMod.png" width="400" height="300" />
 > Workflow for doing the k-means clustering.  
 
-The 4 cluster k-means model capture two obvious groups (see below). 
-1) The youngest population with lowest BMI who felt "good". They spent the least on healthcare. 
-2) The oldest population with highest BMI who felt "bad". Thay spent the most on healthcare.
+The 4 cluster k-means model capture two obvious groups (see below).   
+1) The youngest population with lowest BMI who felt "good". They spent the least on healthcare.   
+2) The oldest population with highest BMI who felt "bad". Thay spent the most on healthcare.  
 
-Then there were two clusters that were similar in age and expenditure. However they were differentiated on poverty, BMI, and how they felt.
-3) Higher BMI, less impoverished, feel "bad".
-4) Lower BMI, more impoverished, feel "good".  
+Then there were two clusters that were similar in age and expenditure. However they were differentiated on poverty, BMI, and how they felt.  
+3) Higher BMI, less impoverished, feel "bad".  
+4) Lower BMI, more impoverished, feel "good".    
 These two groups exhibit how different attributes can be swapped between peopple and result in a similar level of spending. In this case, a high BMI and feeling "bad" were equivalent to being more impoverished. 
 
 <img src="https://github.com/bstankev/insight_img/blob/master/kmeans.png" width="400" height="300" />  
