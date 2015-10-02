@@ -25,7 +25,7 @@ I am new to the healthcare market having been in school or working for the gover
 
 ![plancount](https://cloud.githubusercontent.com/assets/11904975/10254661/f58283a6-68f9-11e5-8f93-d3de3dbaa8a1.png) 
 
-> Number of counties across the country that offer that many plans. 
+> Number of counties across the country that offer that number of plans to an individual. 
 
 ## **Starting the project. The data.** 
 Some serious legwork was done by HealthSherpa to translate a publicly available dataset from SAS and STATA formats into a CSV file. The data comes from the Medical Expenditure Panel Survey (MEPS). It contains data from 2012 on ~38,000 people across 3 survey dates and encompasses ~1,900 variables. The information collected ranges from demographics to health status to healthcare expenditures. What the dataset does not contain is information on the specific plans people are on nor does it contain zipcode (geospatial) information. Omitting specific location information like a zipcode or county keeps the information people provided private. However, the lack of information makes it difficult to leverage census information or to zoom in on plan availability (remember, I already found plan information broken down by county from the government). 
