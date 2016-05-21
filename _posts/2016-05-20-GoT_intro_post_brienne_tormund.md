@@ -5,7 +5,7 @@ date: 2016-05-20
 author:
   - kylefrankovich
 ---
-Like many viewers of this past Sunday's episode of Game of Thrones ("Book of the Stranger"), I caught our favorite readhead from North of The Wall Tormund Giantsbane making eyes at the badass warrior Brienne of Tarth. I was happy to see that the internet in general was shipping them as hard as I was, but I was curious if I'd be able to get an objective measure of our collective desire for this new power couple from a recent data project I've been working on.
+Like many viewers of this past Sunday's episode of Game of Thrones ("Book of the Stranger"), I caught our favorite readhead from North of The Wall Tormund Giantsbane making eyes at the badass warrior Brienne of Tarth. I was happy to see that the internet in general was shipping them as hard as I was, but I was curious if I'd be able to get an objective measure of our collective desire for this new couple to happen from a recent data project I've been working on.
 
 ## **The Project**
 For the past month, I've been collaborating with my good friend [Emily](http://davisig.org/members/emilyhalket/) on a web scraping project for one of our favorite shows, Game of Thrones. We chose this project because we're both huge nerds and we also wanted to get some experience in generating large datasets that would allow us to do a bunch of cool analyses and visualizations. A side benefit is that the datasets would be about dragons and Arya instead of the usual brain data we're used to.
