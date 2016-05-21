@@ -27,7 +27,7 @@ This is a lot of data to handle for each episode, so I also wrote a few python h
 
 As mentioned above, I was curious if we would see evidence of the internet's obsession with this nascent couple in our twitter data. Below is a plot of Brienne and Tormund's mentions in our datasets from the first four episodes:
 
-<iframe width="640" height="359.55" frameborder="0" scrolling="no" src="https://plot.ly/~kyle.frankovich/7.embed?modebar=false&link=false"></iframe>
+<iframe width="640" height="559.55" frameborder="0" scrolling="no" src="https://plot.ly/~kyle.frankovich/7.embed?modebar=false&link=false"></iframe>
 > percentage of character mentions within each episode's dataset
 
 As you can see, both characters received a huge boost relative to their previous few week's mention frequencies once they locked eyes (Brienne also had a big moment in episode one when she saved Sansa from the Boltons, as we see in her relatively high numbers for that episode). So it looks like [all](http://www.huffingtonpost.com/entry/brianne-and-tormund-romance-game-of-thrones_us_5739cb2ee4b08f96c1839172) [of](http://www.popsugar.com/entertainment/Brienne-Tormund-Romance-Game-Thrones-41333748) [the](http://hellogiggles.com/brienne-tormund-game-of-thrones-shipping/) [articles](https://www.buzzfeed.com/jennaguillaume/sail-this-ship-to-bear-island?utm_term=.akM12M76r#.hyEE5walM) [that](http://www.techinsider.io/game-of-thrones-brienne-tormund-shipping-2016-5) came out following the episode were actually on to something: people are super curious about what's going to happen with these characters.
