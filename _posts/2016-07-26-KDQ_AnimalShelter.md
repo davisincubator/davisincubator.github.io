@@ -43,7 +43,7 @@ Advice I would give a shelter based on this model. First, as I have already stat
 <br><br>
 As a final note, splitting the data into dogs and cats allowed for an obvious test of my initial hypothesis, which was that dogs and cats would require different models for good prediction power. A quick outcome matrix when applying this method to cats (though cats could only be classified as mutt or pure bred, not pit bulls) yields this:
 <br><br>
-![cat](http://davisincubator.github.io/images/projects/blog/abbie/cat.png){: center-image }
+![cat](http://davisincubator.github.io/images/projects/blog/abbie/cat.png){: .center-image }
 <br><br>
 There is definitely explanatory power lacking when applying the dog model to cats. In the future, I will need to build an appropriate model for predicting outcomes of cats. This is also relevant to shelters, in that they should not assume that dogs and cats are similar. For example, it may be that older cats don't suffer as much as older dogs. This remains to be explored in the data.
 <br><br>
