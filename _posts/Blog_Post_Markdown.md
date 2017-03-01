@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Kaggle Done Quick: Animal Shelter"
-date: 2016-07-26
+title: "Women In Data Science 2017"
+date: 2016-03-01
 author:
  - abbiepopa
 ---
