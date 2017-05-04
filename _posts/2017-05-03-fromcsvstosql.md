@@ -182,7 +182,7 @@ Here, we’re even saving our query right into a data frame, which can be displa
 
 
 
-I include this as an example because this is not just the data that we put in. By using the super simple GROUP BY function, I’m able to pull out aggregate information about the data very easily. This could be repeated for all subjects with just 9 more keystrokes ;)
+I include this as an example because this is not just the data that we put in. By using the super simple GROUP BY function, I’m able to pull out aggregate information about the data very easily. This could be repeated for all subjects with just 9 more keystrokes :smirk:
 
 I can from here set up a scatterplot using pandas and matplotlib
 
