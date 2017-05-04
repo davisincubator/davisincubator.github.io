@@ -6,8 +6,6 @@ author:
  - ryanphillips
 ---
 
-# Foreword:
-
 Everyone knows that matlab is terrible, and I never want to use it again once I get out of this rattrap. But in order to do some serious data work in the serious world, you need to use a combination of Python and SQL. On the third hand, I couldn’t just throw my grad school life away and break free (I tried that, and it didn’t work).
 
 So to resolve all of these competing interests, I undertook the task of moving my task data into a sql database.
