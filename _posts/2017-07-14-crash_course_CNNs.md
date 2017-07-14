@@ -47,8 +47,8 @@ How this feature detection occurs is a full blog post in itself, which is why I 
 since I'm linking it twice and did not write it!
 
 One thing I want to emphasize about CNNs is they learn their own features! The most common misunderstanding I have encountered teaching CNNs to people in person is a belief
-that you have to tell it "I want to use the edge detection filter, the red palatte filte, and the things that are shaped like hedgehogs filter." This is not the case, when
-starting from scratch the filters are randomly initialized (ish) and adjusted through backpropagation. One downside of this is there is no guarentee the filters will be 
+that you have to tell it "I want to use the edge detection filter, the red palatte filter, and the things that are shaped like hedgehogs filter." This is not the case, when
+starting from scratch the filters are randomly initialized (ish) and adjusted through backpropagation. One downside of this is there is no guarantee the filters will be 
 something that is easy to understand (like the examples I have been giving). 
 
 # Applications
