@@ -6,8 +6,6 @@ author:
  - abbiepopa
 ---
 
-# What I learned from Kaggle's Grocery Prediction Competition
-
 I recently predicted grocery sales for a [kaggle competition](https://www.kaggle.com/c/favorita-grocery-sales-forecasting).
 In this competition, we were responsible for using data from six tables to predict how many units of different items
 would sell on future dates. This competitions presented several challenges, including merging multiple tables, working with
