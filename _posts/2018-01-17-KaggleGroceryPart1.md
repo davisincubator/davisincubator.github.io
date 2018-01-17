@@ -49,7 +49,7 @@ is running properly. Later you can run your script on the full training data on 
 
 The second resource I would like to highlight is dask.
 
-![alt text|627x612, 20%](https://dask.readthedocs.io/en/latest/_images/dask_horizontal.svg "Dask's horizontal logo")
+![alt text](https://dask.readthedocs.io/en/latest/_images/dask_horizontal.svg "Dask's horizontal logo")
 
 I originally heard of dask with regard to its distributing computing scheduling capabilities, but dask also provides
 collections for bigger data sets. These work by "under the hood" breaking the data into multiple parallel collections. 
